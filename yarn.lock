@@ -2449,7 +2449,7 @@ __metadata:
   dependencies:
     "@noble/curves": "npm:^1.6.0"
     "@peculiar/asn1-schema": "npm:^2.3.13"
-    "@safe-global/safe-deployments": "github:safe-global/safe-deployments#main"
+    "@safe-global/safe-deployments": "npm:^1.37.49"
     "@safe-global/safe-modules-deployments": "npm:^2.2.14"
     "@safe-global/testing-kit": "npm:^0.2.2"
     "@safe-global/types-kit": "npm:^3.0.0"
@@ -2499,21 +2499,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@safe-global/safe-deployments@github:safe-global/safe-deployments#main":
-  version: 1.37.49
-  resolution: "@safe-global/safe-deployments@https://github.com/safe-global/safe-deployments.git#commit=7e9845d6d0c8c982aa0591e22e603f5bc24832ac"
-  dependencies:
-    semver: "npm:^7.6.2"
-  checksum: 10c0/e42b1f9d398981e6458c53625ff0d57d699bd1347b07e5de20bd30f4315a58eaef63001c6d72507285cb8f6ef49423141f11d0a4ee6886eb2e3cc813cb783d0d
-  languageName: node
-  linkType: hard
-
 "@safe-global/safe-deployments@npm:^1.37.42":
   version: 1.37.48
   resolution: "@safe-global/safe-deployments@npm:1.37.48"
   dependencies:
     semver: "npm:^7.6.2"
   checksum: 10c0/a47d3a0e1c52f5a38be3fd4a613af887b3dee086dcddc68db27705b496e5fc2ee02f0371fc48b25827815dec6ca5ed5ce99fcfb6dae8fefa8dd2c269bed9ad39
+  languageName: node
+  linkType: hard
+
+"@safe-global/safe-deployments@npm:^1.37.49":
+  version: 1.37.49
+  resolution: "@safe-global/safe-deployments@npm:1.37.49"
+  dependencies:
+    semver: "npm:^7.6.2"
+  checksum: 10c0/8cf7a014413756534e105de2a28a39ce9d6845513ca848fc12ad8bb69bc1f6405657c58d093f210dca7abbccb33d4f4095eca5f38e1d992339d035ead3e59779
   languageName: node
   linkType: hard
 
